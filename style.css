@@ -82,3 +82,34 @@ a {
     border: none;
 }
 
+/* image content section */
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.individual img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.individual {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.image-content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
